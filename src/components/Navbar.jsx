@@ -12,7 +12,7 @@ const Navbar=(props)=>{
  <div className="collapse navbar-collapse" id="navbarSupportedContent">
  <ul className="navbar-nav me-auto mb-2 mb-lg-0">
  <li className="nav-item">
- <Link className={`nav-link ${props.active==='Home'&& 'active'} `} onClick={()=>props.setActive("Home")} aria-current="page" to="/">Home</Link> </li>
+ <Link className={`nav-link ${props.active==='Home'&& 'active'} `} onClick={()=>props.setActive("Home")} aria-current="page" to="/TextUtils-React/">Home</Link> </li>
 
  <li className="nav-item">
  <Link className={`nav-link ${props.active==='About' && 'active'}`} onClick={()=>props.setActive("About")} to="/about">About</Link> </li> 

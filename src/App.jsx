@@ -41,7 +41,7 @@ return (
 <Navbar mode={mode} toggleMode={toggleMode} text={text} active={active} setActive={setActive}></Navbar>
 <Alert alert={alert}></Alert>
 <Routes>
- <Route path='/' element={<TextForm mode={mode}></TextForm>} />
+ <Route path='/TextUtils-React/' element={<TextForm mode={mode}></TextForm>} />
 <Route path='/about' element={<About mode={mode}></About> }/>
 </Routes>
 </Router>
